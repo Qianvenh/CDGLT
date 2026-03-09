@@ -8,6 +8,7 @@ The official implementation for the paper titled: "Concept Drift Guided LayerNor
 
 ```
 conda create -n CDGLT python==3.8.0
+conda activate CDGLT
 pip install -r requirement.txt
 ```
 
@@ -46,7 +47,7 @@ The pretrained GPT-2 model we used: [openai-community/gpt2](https://huggingface.
 Obtain the 6/2/2 **train/val/test** label files of each specific tasks:
 
 ```
-# {YOUR_PATH}/Metor$
+# {YOUR_PATH}/CDGLT$
 cd ./utils
 python split_train_val_test.py
 ```
@@ -60,6 +61,7 @@ The first columns in the obtained `.csv` files represent the IDs of images (e.g.
 ## Extract the embeddings and text prompt tokens
 
 ```
+# {YOUR_PATH}/CDGLT$
 cd ./utils
 python write_clipText_feature.py
 python write_clipViT_feature.py
@@ -71,6 +73,7 @@ Embeddings and GPT2 tokenIDs will be written in `feature/cache_E`
 ### Start Training
 
 ```
+# {YOUR_PATH}/CDGLT$
 bash ./train_MI.sh
 ```
 
