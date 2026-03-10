@@ -8,10 +8,10 @@ def load_dataset(path, task_id, pad_size=35):
     task_prefix = f'task{task_id}_'
     contents = []
 
-    with open(os.path.join(cur_dir, '../feature/cache_E/id_imageFeat_ViT-L_14.pkl'), 'rb') as f:
+    with open(os.path.join(cur_dir, '../feature/cache_E/id_imageFeat_CLIP_ViT-L_14.pkl'), 'rb') as f:
         id_imgFeat = pickle.load(f)
 
-    with open(os.path.join(cur_dir, '../feature/cache_E/id_textFeat_ViT-L_14.pkl'), 'rb') as f:
+    with open(os.path.join(cur_dir, '../feature/cache_E/id_textFeat_CLIP-L_14.pkl'), 'rb') as f:
         id_textFeat = pickle.load(f)
 
     with open(os.path.join(cur_dir, f'../feature/cache_E/{task_prefix}id_promptTokenID.pkl'), 'rb') as f:
