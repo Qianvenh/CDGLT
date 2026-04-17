@@ -1,6 +1,8 @@
 # CDGLT
 
-The official implementation for the paper titled: "Concept Drift Guided LayerNorm Tuning for Efficient Multimodal Metaphor Identification", ICMR 2025. [[arXiv](https://arxiv.org/abs/2505.11237#)]
+The official implementation for the paper titled: "Concept Drift Guided LayerNorm Tuning for Efficient Multimodal Metaphor Identification", ICMR 2025.
+
+📌 Note: We strongly recommend referring to the  [[arXiv](https://arxiv.org/abs/2505.11237#)] version, which contains updated content and refinements beyond the ICMR 2025 publication.
 
 ![Cover](./cover.png)
 
