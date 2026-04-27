@@ -52,7 +52,7 @@ class DatasetIterater(object):  # 自定义数据集迭代器
         self.batches = batches  # 构建好的数据集
         self.n_batches = len(batches) // batch_size
         self.residue = False  # 记录batch数量是否为整数
-        if len(batches) % self.n_batches != 0:  # 不能整除
+        if len(batches) % self.batch_size != 0:  # 不能整除
             self.residue = True #True表示不能整除
         self.index = 0
         self.device = device

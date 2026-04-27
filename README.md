@@ -4,6 +4,8 @@ The official implementation for the paper titled: "Concept Drift Guided LayerNor
 
 📌 Note: We strongly recommend referring to the  [[arXiv](https://arxiv.org/abs/2505.11237#)] version, which contains updated content and refinements beyond the ICMR 2025 publication.
 
+📌 注意：我们强烈建议参考 [[arXiv](https://arxiv.org/abs/2505.11237#)] 版本，该版本包含 ICMR 2025 出版版本之外的更新内容和改进。
+
 ![Cover](./cover.png)
 
 ## Install the Requirements
